@@ -21,7 +21,7 @@ int x = xa, y = xb;
 
 int count = 0;
 
-while(count < 100000)
+while(count < 10000)
 {
     int what = new Random().Next(0, 3); // 'это получаются 0 1 2
 
