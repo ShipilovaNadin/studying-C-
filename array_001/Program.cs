@@ -23,7 +23,7 @@ void PrintArray(int[] col)
     }
 }
 
-int IndexOf(int[]collection, int find)
+int IndexOf(int[]collection, int find) // находим индекс элемента массива, совпадающего с заданным значением find
 {
     int count = collection.Length;
     int index = 0;
